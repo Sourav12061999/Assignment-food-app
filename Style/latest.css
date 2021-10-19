@@ -1,0 +1,15 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#latest {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  gap: 1%;
+  /* border: 1px solid red; */
+}
+#latest > div {
+  height: 200px;
+}
